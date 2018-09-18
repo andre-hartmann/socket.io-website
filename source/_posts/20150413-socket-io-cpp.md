@@ -8,9 +8,9 @@ author_link: https://twitter.com/melode111
 
 I'm really proud to announce the first release of the <a href="https://github.com/socketio/socket.io-client-cpp">Socket.IO C++ Client</a> on GitHub!
 
-Based on <a href="http://www.boost.org/">Boost</a> and <a href="https://github.com/zaphoyd/websocketpp">WebSocket++</a>, this full-featured Socket.IO 1.0 client has the fundamental advantage of working on **multiple platforms**. Check out the directory of <a href="https://github.com/socketio/socket.io-client-cpp/tree/master/examples">examples</a>. It contains examples of iOS, QT, and CLI chat clients!
+Based on <a href="http://www.boost.org/">Boost</a> and <a href="https://github.com/zaphoyd/websocketpp">WebSocket++</a>, this full-featured Socket.IO 1.0 client has the fundamental advantage of working on **multiple platforms**. Check out the directory of <a href="https://github.com/socketio/socket.io-client-cpp/tree/master/examples">examples</a>. It contains examples of iOS, Qt, and CLI chat clients!
 
-To learn how to use this client, I put together a QT chat example that communicates using a <a href="https://github.com/Automattic/socket.io/tree/master/examples/chat">Socket.IO Node.JS chat server</a>. Keep reading for step-by-step instructions.
+To learn how to use this client, I put together a Qt chat example that communicates using a <a href="https://github.com/Automattic/socket.io/tree/master/examples/chat">Socket.IO Node.JS chat server</a>. Keep reading for step-by-step instructions.
 
 <p style="text-align: center">
 <img src="https://cldup.com/98tHyoJJE7.gif">
@@ -30,13 +30,13 @@ The app includes the following features:
 - Receive a notification when users join or leave the room.
 - Receive notifications when a user starts typing a message.
 
-Before you get started, visit the <a href="http://www.qt.io/download-open-source/#section-2">QT community</a> to download and install QT.
+Before you get started, visit the <a href="http://www.qt.io/download-open-source/#section-2">Qt community</a> to download and install Qt.
 
-## Creating a QT GUI Application
+## Creating a Qt GUI Application
 
-Launch the QT Creator.
+Launch the Qt Creator.
 
-On the welcome page, select `New Project`, then create a `QT Widget Application.` Name it `SioChatDemo.`
+On the welcome page, select `New Project`, then create a `Qt Widget Application.` Name it `SioChatDemo.`
 
 The project structure should look like this:
 
@@ -54,7 +54,7 @@ SioChatDemo
 
 ## Importing an SioClient
 
-Lets copy the SioClient into the QT project under the subfolder `sioclient.`
+Lets copy the SioClient into the Qt project under the subfolder `sioclient.`
 
 Edit `SioChatDemo.pro` to configure paths and compile options by simply adding:
 
